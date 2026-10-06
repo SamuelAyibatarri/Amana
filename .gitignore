@@ -1,4 +1,22 @@
-AGENTS.md 
-DESIGN.md 
-MEMORY.md 
-PLAN.md 
+# Operating docs (agent session state — lives locally, never pushed)
+AGENTS.md
+MEMORY.md
+PLAN.md
+DESIGN.md
+
+# Agent skills (third-party installs, reinstallable)
+.agents/
+skills-lock.json
+
+# Secrets (also ignored inside each sub-repo — belt and suspenders)
+.env
+.dev.vars
+sessions/
+*.pem
+*.key
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+*.log

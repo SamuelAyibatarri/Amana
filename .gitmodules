@@ -1,0 +1,6 @@
+[submodule "amana-backend-azure"]
+	path = amana-backend-azure
+	url = https://github.com/SamuelAyibatarri/amana-backend-azure.git
+[submodule "amana-frontend"]
+	path = amana-frontend
+	url = https://github.com/SamuelAyibatarri/amana-frontend.git
